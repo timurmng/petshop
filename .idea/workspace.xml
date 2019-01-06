@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ed519d9-8edc-4dcb-a7d6-1b79f22276de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AccessRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/produs/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProdusController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProdusController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/LoginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Produs.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Produs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ActiveField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ActiveForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Alert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BaseHtml.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BaseHtml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapPluginAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapThemeAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapWidgetTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/BootstrapWidgetTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Button.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ButtonDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ButtonDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ButtonGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ButtonGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Carousel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Carousel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Collapse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Collapse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Dropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Dropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/InputWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Modal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/NavBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/NavBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Progress.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Progress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Tabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/ToggleButtonGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/src/Widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/Installer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/Installer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-composer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/DebugAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/DebugAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/FlattenException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/FlattenException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/LogTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/LogTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/TimelineAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/TimelineAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/UserswitchAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/UserswitchAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/actions/db/ExplainAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/actions/db/ExplainAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/maximize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/maximize.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/switch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/switch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/toolbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/userswitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/userswitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/GreaterThan.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/GreaterThan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/GreaterThanOrEqual.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/GreaterThanOrEqual.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/LowerThan.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/LowerThan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/MatcherInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/MatcherInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/SameAs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/components/search/matchers/SameAs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/controllers/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/UserSwitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/UserSwitch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/UserSearchInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/search/UserSearchInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/DataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/DataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/Svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/models/timeline/Svg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/AssetPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/AssetPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/ConfigPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/ConfigPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/DbPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/DbPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/EventPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/EventPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/LogPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/LogPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/MailPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/MailPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/ProfilingPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/ProfilingPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/RequestPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/RouterPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/RouterPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/TimelinePanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/TimelinePanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/panels/UserPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/assets/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/assets/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/assets/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/assets/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/config/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/db/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/db/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/db/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/db/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/event/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/event/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/event/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/event/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/log/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/log/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/log/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/log/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/_item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/mail/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/profile/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/profile/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/profile/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/profile/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/request/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/router/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/router/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/timeline/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/timeline/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/switch.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/panels/user/switch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/toolbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/toolbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/default/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/FixtureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/FixtureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-faker/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/CodeFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/CodeFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/GiiAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/GiiAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/TypeAheadAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/TypeAheadAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/gii.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/gii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/components/ActiveField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/components/ActiveField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/components/DiffRendererHtmlInline.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/components/DiffRendererHtmlInline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/console/GenerateAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/console/GenerateAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/console/GenerateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/console/GenerateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/controllers/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/default/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/default/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/default/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/default/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/controller/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/default/views/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/crud/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/AutoloadExample.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/AutoloadExample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/default/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/extension/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/default/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/default/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/default/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/default/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/form/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/default/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/default/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/default/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/default/query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/model/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/Generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/Generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/default/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/generators/module/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/diff.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/diff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view/files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view/files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view/results.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/default/view/results.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/layouts/generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/layouts/generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/src/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Accordion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Accordion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/AutoComplete.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/AutoComplete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePickerLanguageAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePickerLanguageAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Dialog.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Dialog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Draggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Draggable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Droppable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Droppable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/InputWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/InputWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/JuiAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/JuiAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/ProgressBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/ProgressBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Resizable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Resizable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Selectable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Selectable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/SliderInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/SliderInput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Sortable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Sortable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Spinner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Spinner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Tabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Mailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/BaseYii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/BaseYii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/UPGRADE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/UPGRADE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/Yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/Yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.activeForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.activeForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.captcha.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.captcha.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.gridView.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.gridView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/assets/yii.validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ActionEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ActionEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ActionFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ActionFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ArrayAccessTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ArrayAccessTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Arrayable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Arrayable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ArrayableTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ArrayableTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/BaseObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/BaseObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Behavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Behavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/BootstrapInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/BootstrapInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Component.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Component.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Configurable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Configurable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicContentAwareInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicContentAwareInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicContentAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicContentAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/DynamicModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ErrorException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ErrorException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ExitException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ExitException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InlineAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InlineAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidCallException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidCallException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidConfigException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidConfigException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidParamException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidParamException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidRouteException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidRouteException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/InvalidValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ModelEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ModelEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/NotSupportedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/NotSupportedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/StaticInstanceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/StaticInstanceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/StaticInstanceTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/StaticInstanceTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownClassException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownClassException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownMethodException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownMethodException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownPropertyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UnknownPropertyException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UserException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/UserException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewContextInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewContextInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/ViewRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/WidgetEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/WidgetEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributeTypecastBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributeTypecastBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributesBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/AttributesBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/BlameableBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/BlameableBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/CacheableWidgetBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/CacheableWidgetBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/TimestampBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/TimestampBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ApcCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ApcCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ArrayCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ArrayCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/Cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/Cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/CacheInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/CacheInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ChainedDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ChainedDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbQueryDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DbQueryDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/Dependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/Dependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DummyCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/DummyCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ExpressionDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ExpressionDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/FileCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/FileCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/FileDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/FileDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCacheServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/MemCacheServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/TagDependency.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/TagDependency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/WinCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/WinCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/XCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/XCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ZendDataCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/ZendDataCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/m150909_153426_cache_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/m150909_153426_cache_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-mssql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-mssql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-oci.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-oci.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-pgsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-pgsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/caching/migrations/schema-sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/Captcha.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/Captcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/CaptchaValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/SpicyRice.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/SpicyRice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/SpicyRice.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/SpicyRice.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/ExitCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/ExitCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Markdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Markdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/UnknownCommandException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/UnknownCommandException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/AssetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/AssetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/CacheController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/CacheController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/FixtureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/FixtureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/HelpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/HelpController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/MessageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/MigrateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/MigrateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/ServeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/controllers/ServeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/widgets/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/console/widgets/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ArrayDataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/ArrayDataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/BaseDataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/BaseDataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/DataFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/DataFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/DataProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/DataProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/Sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/Sort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/SqlDataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/data/SqlDataProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQueryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQueryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQueryTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveQueryTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecordInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRecordInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRelationTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ActiveRelationTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/AfterSaveEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/AfterSaveEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ArrayExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ArrayExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/BatchQueryResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/BatchQueryResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/CheckConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/CheckConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ColumnSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ColumnSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ColumnSchemaBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ColumnSchemaBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Constraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Constraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ConstraintFinderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ConstraintFinderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ConstraintFinderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ConstraintFinderTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/DataReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/DataReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/DefaultValueConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/DefaultValueConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionBuilderTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ExpressionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ForeignKeyConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ForeignKeyConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/IndexConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/IndexConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/IntegrityException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/IntegrityException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/JsonExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/JsonExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/MigrationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/MigrationInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/PdoValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/PdoValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/PdoValueBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/PdoValueBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/QueryTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SchemaBuilderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SchemaBuilderTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SqlToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SqlToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SqlTokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/SqlTokenizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/StaleObjectException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/StaleObjectException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/TableSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/TableSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/Transaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ViewFinderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/ViewFinderTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/AndCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/AndCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenColumnsCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenColumnsCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenColumnsConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenColumnsConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/BetweenConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConditionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConditionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConjunctionCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConjunctionCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConjunctionConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ConjunctionConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ExistsCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ExistsCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ExistsConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/ExistsConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/HashCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/HashCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/HashConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/HashConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/InCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/InCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/InConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/InConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/LikeCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/LikeCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/LikeConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/LikeConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/NotCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/NotCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/NotConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/NotConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/OrCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/OrCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/SimpleCondition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/SimpleCondition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/SimpleConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/conditions/SimpleConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/ColumnSchemaBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/ColumnSchemaBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/conditions/LikeConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/cubrid/conditions/LikeConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/PDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/PDO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/SqlsrvPDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/SqlsrvPDO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/TableSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/TableSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/conditions/InConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/conditions/InConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/conditions/LikeConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mssql/conditions/LikeConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/ColumnSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/ColumnSchemaBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/ColumnSchemaBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/JsonExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/JsonExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/mysql/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/ColumnSchemaBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/ColumnSchemaBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/conditions/InConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/conditions/InConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/conditions/LikeConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/oci/conditions/LikeConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ArrayExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ArrayExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ArrayParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ArrayParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/ColumnSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/JsonExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/JsonExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/pgsql/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/ColumnSchemaBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/ColumnSchemaBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/QueryBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/SqlTokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/SqlTokenizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/conditions/InConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/conditions/InConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/conditions/LikeConditionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/db/sqlite/conditions/LikeConditionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/Instance.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/Instance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/NotInstantiableException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/NotInstantiableException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/ServiceLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/di/ServiceLocator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AjaxFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AjaxFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/ContentNegotiator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/ContentNegotiator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/Cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/HostControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/HostControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/HttpCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/HttpCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/PageCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/PageCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/RateLimitInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/RateLimitInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/RateLimiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/RateLimiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/VerbFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/VerbFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/AuthInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/AuthInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/AuthMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/AuthMethod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpBearerAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpBearerAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/HttpHeaderAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/auth/QueryParamAuth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/ActionColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/ActionColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/CheckboxColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/CheckboxColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/Column.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/Column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/DataColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/DataColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/GridView.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/GridView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/GridViewAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/GridViewAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/RadioButtonColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/RadioButtonColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/SerialColumn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/grid/SerialColumn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/ArrayHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/ArrayHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseConsole.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseConsole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseFileHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseFileHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseFormatConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseFormatConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseHtml.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseHtml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseHtmlPurifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseHtmlPurifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseInflector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseInflector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseIpHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseIpHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseJson.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseJson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseMarkdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseMarkdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseStringHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseStringHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseVarDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/BaseVarDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/FileHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/FileHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/FormatConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/FormatConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/HtmlPurifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/HtmlPurifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Inflector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Inflector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/IpHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/IpHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Markdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Markdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/ReplaceArrayValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/ReplaceArrayValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/StringHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/StringHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/UnsetArrayValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/UnsetArrayValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/VarDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/VarDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/mimeAliases.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/mimeAliases.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/mimeTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/helpers/mimeTypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/DbMessageSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/DbMessageSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Formatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextMessageSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextMessageSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextMoFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextMoFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextPoFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/GettextPoFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/I18N.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/I18N.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/Locale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MessageFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MessageFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MessageSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MessageSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MissingTranslationEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/MissingTranslationEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/PhpMessageSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/PhpMessageSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/m150207_210500_i18n_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/m150207_210500_i18n_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-mssql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-mssql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-oci.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-oci.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-pgsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-pgsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/migrations/schema-sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/DbTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/DbTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Dispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Dispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/EmailTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/EmailTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/FileTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/FileTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/LogRuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/LogRuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/SyslogTarget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/SyslogTarget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Target.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/Target.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/m141106_185632_log_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/m141106_185632_log_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-mssql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-mssql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-oci.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-oci.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-pgsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-pgsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/log/migrations/schema-sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/BaseMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/BaseMailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/BaseMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/BaseMessage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MailEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MailEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MailerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MailerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MessageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mail/MessageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ar/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ar/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/az/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/az/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/bg/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/bg/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/bs/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/bs/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ca/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ca/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/cs/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/cs/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/da/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/da/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/de/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/de/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/el/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/el/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/es/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/es/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/et/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/et/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fa/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fa/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fi/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fi/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fr/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/fr/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/he/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/he/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hr/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hr/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hu/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hu/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hy/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/hy/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/id/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/id/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/it/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/it/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ja/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ja/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ka/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ka/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/kk/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/kk/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ko/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ko/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/kz/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/kz/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/lt/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/lt/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/lv/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/lv/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ms/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ms/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/nb-NO/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/nb-NO/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/nl/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/nl/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pl/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pl/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pt-BR/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pt-BR/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pt/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/pt/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ro/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ro/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ru/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/ru/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sk/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sk/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sl/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sl/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sr-Latn/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sr-Latn/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sr/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sr/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sv/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/sv/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/tg/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/tg/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/th/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/th/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/tr/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/tr/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/uk/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/uk/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/uz/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/uz/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/vi/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/vi/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/zh-CN/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/zh-CN/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/zh-TW/yii.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/zh-TW/yii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/DbMutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/DbMutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/FileMutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/FileMutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/Mutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/Mutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/MysqlMutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/MysqlMutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/OracleMutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/OracleMutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/PgsqlMutex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/mutex/PgsqlMutex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Assignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Assignment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/BaseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/BaseManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/CheckAccessInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/CheckAccessInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/DbManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/DbManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/ManagerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/ManagerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/PhpManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/PhpManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Rule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/Rule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/m170907_052038_rbac_add_index_on_auth_assignment_user_id.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-mssql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-mssql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-oci.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-oci.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-pgsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-pgsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/migrations/schema-sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/YiiRequirementChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/YiiRequirementChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/requirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/requirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/console/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/console/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/web/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/web/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/requirements/views/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/ActiveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/ActiveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/CreateAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/CreateAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/DeleteAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/DeleteAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/IndexAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/IndexAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/OptionsAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/OptionsAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Serializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/Serializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/UpdateAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/UpdateAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/UrlRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/UrlRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/ViewAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/rest/ViewAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/ActiveFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/ActiveFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/ArrayFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/ArrayFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/BaseActiveFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/BaseActiveFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/DbFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/DbFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/FileFixtureTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/FileFixtureTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/Fixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/Fixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/FixtureTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/FixtureTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/InitDbFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/test/InitDbFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/BooleanValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/BooleanValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/CompareValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/CompareValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/DateValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/DateValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/DefaultValueValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/DefaultValueValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/EachValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/EachValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/EmailValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/EmailValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ExistValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ExistValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/FileValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/FileValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/FilterValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/FilterValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ImageValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ImageValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/InlineValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/InlineValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/IpValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/IpValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/NumberValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/NumberValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/PunycodeAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/PunycodeAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RangeValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RangeValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RegularExpressionValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RegularExpressionValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RequiredValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/RequiredValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/SafeValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/SafeValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/StringValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/StringValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/UniqueValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/UniqueValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/UrlValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/UrlValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ValidationAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ValidationAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/validators/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addColumns.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addColumns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addComments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addForeignKeys.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_addForeignKeys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_createTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_createTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropColumns.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropColumns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropForeignKeys.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropForeignKeys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_dropTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_foreignTables.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/_foreignTables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/addColumnMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/addColumnMigration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/createJunctionMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/createJunctionMigration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/createTableMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/createTableMigration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/dropColumnMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/dropColumnMigration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/dropTableMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/dropTableMigration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/previousException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/errorHandler/previousException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/messageConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/messageConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/views/migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetConverterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetConverterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/AssetManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/BadRequestHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/BadRequestHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CacheSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CacheSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CompositeUrlRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CompositeUrlRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ConflictHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ConflictHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CookieCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/CookieCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/DbSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/DbSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ErrorAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ErrorAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ForbiddenHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ForbiddenHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/GoneHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/GoneHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/GroupUrlRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/GroupUrlRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HeaderCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HeaderCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HeadersAlreadySentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HeadersAlreadySentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HtmlResponseFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HtmlResponseFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/IdentityInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/IdentityInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JqueryAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JqueryAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsonParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsonParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsonResponseFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/JsonResponseFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Link.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Link.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Linkable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Linkable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MethodNotAllowedHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MethodNotAllowedHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MultiFieldSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MultiFieldSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MultipartFormDataParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/MultipartFormDataParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/NotAcceptableHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/NotAcceptableHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/NotFoundHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/NotFoundHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/RangeNotSatisfiableHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/RangeNotSatisfiableHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/RequestParserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/RequestParserInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ResponseFormatterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ResponseFormatterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ServerErrorHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ServerErrorHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/SessionIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/SessionIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/TooManyRequestsHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/TooManyRequestsHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnauthorizedHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnauthorizedHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnprocessableEntityHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnprocessableEntityHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnsupportedMediaTypeHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UnsupportedMediaTypeHttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UploadedFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UploadedFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlNormalizerRedirectException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlNormalizerRedirectException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlRuleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlRuleInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UserEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/UserEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ViewAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/ViewAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/XmlResponseFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/XmlResponseFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/YiiAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/YiiAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/m160313_153426_session_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/m160313_153426_session_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-mssql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-mssql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-oci.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-oci.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-pgsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-pgsql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/migrations/schema-sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveFormAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveFormAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/BaseListView.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/BaseListView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Block.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Breadcrumbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Breadcrumbs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ContentDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ContentDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/DetailView.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/DetailView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/FragmentCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/FragmentCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/InputWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/InputWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/LinkPager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/LinkPager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/LinkSorter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/LinkSorter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ListView.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ListView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/MaskedInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/MaskedInput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/MaskedInputAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/MaskedInputAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Pjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Pjax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/PjaxAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/PjaxAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Spaceless.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Spaceless.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii.bat" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/.gitignore" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="96d687d6-4e90-4755-b3b2-fef35da531cf" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="79" column="66" lean-forward="true" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+              <folding>
+                <element signature="e#35#43#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/LoginForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+              <folding>
+                <element signature="e#30#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Security.php" />
+        <option value="$PROJECT_DIR$/views/user/edit.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/views/user/register.php" />
+        <option value="$PROJECT_DIR$/views/produs/add.php" />
+        <option value="$PROJECT_DIR$/views/user/view.php" />
+        <option value="$PROJECT_DIR$/models/Produs.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php" />
+        <option value="$PROJECT_DIR$/components/AccessRule.php" />
+        <option value="$PROJECT_DIR$/views/produs/index.php" />
+        <option value="$PROJECT_DIR$/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/controllers/ProdusController.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/models/User.php" />
+        <option value="$PROJECT_DIR$/models/LoginForm.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/typeahead.js" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/codeception/specify" />
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery-ui" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-jui" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="45" />
+    <option name="y" value="27" />
+    <option name="width" value="1311" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="petshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petshop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petshop" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="petshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petshop" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed519d9-8edc-4dcb-a7d6-1b79f22276de" name="Default Changelist" comment="" />
+      <created>1542976046668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542976046668</updated>
+      <workItem from="1542976047999" duration="5768000" />
+      <workItem from="1542982374132" duration="197000" />
+      <workItem from="1543143010461" duration="5804000" />
+      <workItem from="1543589275949" duration="1798000" />
+      <workItem from="1544122503595" duration="3477000" />
+      <workItem from="1544170297230" duration="4480000" />
+      <workItem from="1544179756570" duration="2849000" />
+      <workItem from="1544793975077" duration="16000" />
+      <workItem from="1544794124104" duration="2185000" />
+      <workItem from="1544859878280" duration="19000" />
+      <workItem from="1546149732962" duration="2450000" />
+      <workItem from="1546190575243" duration="2011000" />
+      <workItem from="1546352675230" duration="5151000" />
+      <workItem from="1546430001688" duration="173000" />
+      <workItem from="1546789869066" duration="1567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37945000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="25" width="1321" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2931978" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882722" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960908" weight="0.3279743" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011728" side_tool="true" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32994527" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="658" column="8" selection-start-line="658" selection-start-column="8" selection-end-line="658" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/DetailView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Card.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petshop_timur.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="381" column="20" selection-start-line="381" selection-start-column="20" selection-end-line="381" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/produs/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3594">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Produs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ProdusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/produs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CardController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="44" column="105" lean-forward="true" selection-start-line="44" selection-start-column="105" selection-end-line="44" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+          <folding>
+            <element signature="e#35#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AccessRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="403" column="58" selection-start-line="403" selection-start-column="58" selection-end-line="403" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="79" column="66" lean-forward="true" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
