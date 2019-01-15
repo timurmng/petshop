@@ -11,7 +11,6 @@ namespace app\controllers;
 
 use app\models\Card;
 use app\models\User;
-use http\Url;
 use yii\filters\AccessControl;
 use yii\filters\AccessRule;
 use yii\web\Controller;
@@ -20,6 +19,7 @@ use yii;
 class CardController extends Controller
 {
 
+    // Definirea accesului in cadrul controller-ului pentru carduri
     public function behaviors()
     {
         return [
@@ -44,12 +44,16 @@ class CardController extends Controller
         ];
     }
 
+
+    // Backend adaugare card
     /**
      * @throws yii\db\Exception
      */
     public function actionAdd()
     {
         $model = new Card(['scenario' => 'add']);
+        // Daca request-ul este trimis catre server & inputurile sunt validate
+        // inseram in baza de date & redirectionam cu mesaj de succes + query-ul rulat efectiv
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $command = yii::$app->db->createCommand("INSERT INTO " . Card::tableName() . " (`idusr_crd`, `serial_crd`, `holder_crd`, `expiration_crd`)  
             VALUES (:idusr_crd, :serial_crd, :holder_crd, :expiration_crd)")
@@ -74,15 +78,19 @@ class CardController extends Controller
     }
 
     /**
+     * @param $serie
+     * @return string|yii\web\Response
      * @throws yii\db\Exception
      */
     public function actionEdit($serie)
     {
-
+        // GET-ul seriei este un string ce contine "'...'" -> stergem '' pt a putea utiliza seria
         $serie = str_replace("'", '', $serie);
         $model = Card::findOne(['serial_crd' => $serie]);
         $model->setScenario('edit');
 
+        // Daca request-ul este trimis catre server & inputurile sunt validate
+        //  facem update in baza de date & redirectionam cu mesaj de succes + query-ul rulat efectiv
         if ($model->load(yii::$app->request->post()) && $model->validate()) {
             $command = yii::$app->db->createCommand("UPDATE " . Card::tableName() . "
                 SET serial_crd = :serial,

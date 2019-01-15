@@ -59,6 +59,11 @@ class User extends ActiveRecord implements IdentityInterface
         return true;
     }
 
+    public function getCards()
+    {
+        return $this->hasMany(Card::className(), ['idusr_crd' => 'id_usr']);
+    }
+
     /**
      * @return bool|void
      * @throws yii\base\Exception
@@ -68,7 +73,6 @@ class User extends ActiveRecord implements IdentityInterface
         if ($this->scenario == 'register') {
             $this->authkey_usr = yii::$app->security->generateRandomString(32);
             $this->type_usr = self::TYPE_USER;
-            $this->createdat_usr = date('Y-m-d H:i:s');
         }
         return parent::beforeValidate();
     }

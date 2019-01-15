@@ -27,6 +27,11 @@ class UserController extends Controller
                     ],
                     [
                         'allow' => true,
+                        'actions' => ['view', 'delete'],
+                        'roles' => [User::TYPE_USER]
+                    ],
+                    [
+                        'allow' => true,
                         'actions' => ['register'],
                         'roles' => ['?']
                     ]
@@ -46,18 +51,27 @@ class UserController extends Controller
      */
     public function actionView()
     {
-        $command = yii::$app->db->createCommand("SELECT * FROM " . User::tableName() . " as users
-         INNER JOIN " . Card::tableName() . " as cards
-         ON users.id_usr = cards.idusr_crd  
-         WHERE email_usr = :email")
-            ->bindValue(':email', Yii::$app->user->identity->email_usr);
+        $user = User::findOne(['email_usr' => yii::$app->user->identity->email_usr]);
+        if ($user->cards) {
+            $command = yii::$app->db->createCommand("SELECT * FROM " . User::tableName() . " as u
+            INNER JOIN " . Card::tableName() . " as c ON u.id_usr = c.idusr_crd
+            INNER JOIN user_type as t ON u.type_usr = t.id_type  
+            WHERE email_usr = :email")
+                ->bindValue(':email', yii::$app->user->identity->email_usr);
+        } else {
+            $command = yii::$app->db->createCommand("SELECT * FROM " . User::tableName() . " as u
+            INNER JOIN user_type as t ON u.type_usr = t.id_type  
+            WHERE email_usr = :email")
+                ->bindValue(':email', Yii::$app->user->identity->email_usr);
+        }
 
         $comanda = json_encode($command->getRawSql(), JSON_PRETTY_PRINT);
-        $model = $command->queryAll();
+        $model = $command->queryAll(\PDO::FETCH_ASSOC);
 
         return $this->render('view', [
             'model' => $model,
-            'comanda' => $comanda
+            'comanda' => $comanda,
+            'user' => $user
         ]);
     }
 
@@ -73,8 +87,8 @@ class UserController extends Controller
             if ($model->validate()) {
                 $command = yii::$app->db->createCommand(
                     "INSERT INTO " . User::tableName() .
-                    "(`nume_usr`, `prenume_usr`, `email_usr`, `parola_usr`, `datanastere_usr`, `sex_usr`, `tara_usr`, `oras_usr`, `authkey_usr`, `lastlogin_usr`, `type_usr`) 
-                    VALUES(:nume_usr, :prenume_usr, :email_usr, :parola_usr, :datanastere_usr, :sex_usr, :tara_usr, :oras_usr, :authkey_usr, :lastlogin_usr, :type_usr)")
+                    "(`nume_usr`, `prenume_usr`, `email_usr`, `parola_usr`, `datanastere_usr`, `sex_usr`, `tara_usr`, `oras_usr`, `authkey_usr`, `type_usr`) 
+                    VALUES(:nume_usr, :prenume_usr, :email_usr, :parola_usr, :datanastere_usr, :sex_usr, :tara_usr, :oras_usr, :authkey_usr, :type_usr)")
                     ->bindValues([
                         ':nume_usr' => $model->nume_usr,
                         ':prenume_usr' => $model->prenume_usr,
@@ -85,7 +99,6 @@ class UserController extends Controller
                         ':tara_usr' => $model->tara_usr,
                         ':oras_usr' => $model->oras_usr,
                         ':authkey_usr' => $model->authkey_usr,
-                        ':lastlogin_usr' => $model->lastlogin_usr,
                         ':type_usr' => $model->type_usr,
                     ]);
                 $comanda = json_encode($command->getRawSql(), JSON_PRETTY_PRINT);
@@ -165,6 +178,7 @@ class UserController extends Controller
         $command->execute();
         yii::$app->session->setFlash('danger', 'Utilizator șters cu succes!');
         yii::$app->session->setFlash('warning', $comanda);
-        return $this->redirect('/user/admin');
+        yii::$app->session->close();
+        return $this->redirect('/site/index');
     }
 }

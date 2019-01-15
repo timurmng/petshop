@@ -1,8 +1,14 @@
 <?php
 /* @var $user array */
+
 /* @var $this \yii\web\View */
+
 use app\models\User;
+
 $this->title = 'Vezi profil';
+//echo "<pre>";
+//print_r($model);
+//die();
 ?>
 
 <h1 class="page-title">
@@ -69,6 +75,16 @@ try {
 }
 ?>
 
+<br>
+<div class="form-group">
+    <span class="pull-right">
+        <a href="/user/delete?email=<?php echo yii::$app->user->identity->email_usr; ?>" class="btn btn-danger"
+           onclick="return(confirm('Ești sigur?'))">
+            Șterge cont
+        </a>
+    </span>
+</div>
+
 <?php if (isset($model[0]['id_crd'])) : ?>
     <h2 class="page-header">Carduri</h2>
 
@@ -123,6 +139,7 @@ try {
     query.addEventListener('click', toggleQuery);
     let status = 0;
     let par = document.getElementById('show-query');
+
     function toggleQuery(e) {
         if (status === 0) {
             par.innerText = <?php echo $comanda; ?>;

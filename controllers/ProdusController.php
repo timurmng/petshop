@@ -9,6 +9,7 @@
 namespace app\controllers;
 
 
+use app\models\Animal;
 use app\models\Produs;
 use app\models\User;
 use yii\filters\AccessControl;
@@ -38,7 +39,7 @@ class ProdusController extends Controller
                     [
                         'allow' => true,
                         'actions' => ['view', 'index'],
-                        'roles' => ['?']
+                        'roles' => ['?', USER::TYPE_USER]
                     ]
                 ],
             ],
@@ -59,8 +60,10 @@ class ProdusController extends Controller
              INNER JOIN animals_anm as a ON p.idanm_prd = a.id_anm
              INNER JOIN produs_type as t ON p.tip_prd = t.id_ptp";
 
-        if ($filter != '' && $filter == 'ASC' || $filter == 'DESC') {
-            $query .= " ORDER BY p.pret_prd " . $filter;
+        if ($filter == 'PRET_ASC' || $filter == 'PRET_DESC') {
+            $query .= " ORDER BY p.pret_prd " . substr($filter, 5);
+        } elseif ($filter == "NUME_ASC" || $filter == "NUME_DESC") {
+            $query .= " ORDER BY p.nume_prd " . substr($filter, 5);
         }
 
         $sql = yii::$app->db->createCommand($query)->getRawSql();
@@ -68,12 +71,10 @@ class ProdusController extends Controller
         $products = yii::$app->db->createCommand($query)
             ->queryAll(\PDO::FETCH_ASSOC);
 
-//        echo "<PRE>";
-//        print_r($products);
-//        die();
 
         return $this->render('index', [
-            'products' => $products
+            'products' => $products,
+            'sql' => $sql
         ]);
     }
 
@@ -81,8 +82,16 @@ class ProdusController extends Controller
     {
         $model = Produs::findOne($id);
 
+        $sql = "
+        SELECT p.nume_prd, p.descriere_prd, p.pret_prd, p.stoc_prd, p.imagine_prd, a.denumire_anm, t.denumire_ptp
+        FROM " . Produs::tableName() . " p 
+        INNER JOIN " . Animal::tableName() . " as a ON p.idanm_prd = a.id_anm
+        INNER JOIN produs_type as t ON p.tip_prd = t.id_ptp
+        WHERE p.id_prd = $id";
+
         return $this->render('view', [
             'model' => $model,
+            'sql' => $sql,
         ]);
     }
 
@@ -168,5 +177,4 @@ class ProdusController extends Controller
         yii::$app->session->setFlash('warning', $sql);
         return $this->redirect('site/index');
     }
-
 }

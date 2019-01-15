@@ -48,6 +48,13 @@ class Produs extends \yii\db\ActiveRecord
         ];
     }
 
+    // Definirea relatiei One to Many dintre tabele (un  Animal poate avea mai multe tipuri de hrana,
+    // un tip de hrana poate avea un singur animal)
+    public function getAnimal()
+    {
+        return $this->hasOne(Animal::className(), ['id_anm' => 'idanm_prd']);
+    }
+
     /**
      * {@inheritdoc}
      */

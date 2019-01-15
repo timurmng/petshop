@@ -34,8 +34,8 @@ class Card extends \yii\db\ActiveRecord
             [['serial_crd'], 'unique'],
             [['holder_crd'], 'string', 'max' => 30],
             [['expiration_crd'], 'string', 'max' => 10],
-            [['serial_crd', 'holder_crd', 'expiration_crd', 'secret_crd'], 'required', 'on' => 'add', 'message' => 'Acest câmp este obligatoriu!'],
-            [['idusr_crd', 'serial_crd', 'holder_crd', 'expiration_crd', 'secret_crd'], 'safe', 'on' => 'edit'],
+            [['serial_crd', 'holder_crd', 'expiration_crd'], 'required', 'on' => 'add', 'message' => 'Acest câmp este obligatoriu!'],
+            [['idusr_crd', 'serial_crd', 'holder_crd', 'expiration_crd'], 'safe', 'on' => 'edit'],
             [['serial_crd'], 'match', 'pattern' => '#\d{4}-\d{4}-\d{4}-\d{4}#', 'message' => 'Seria cardului trebuie să fie de forma 1111-2222-3333-4444.'],
             [['holder_crd'], 'match', 'pattern' => '#[A-Z]+#', 'message' => 'Nume invalid!', 'on' => 'add'],
             [['expiration_crd'], 'match', 'pattern' => '#[0-1][0-9]-[1-2][0-9]#', 'message' => 'Data expirării trebuie să fie de forma LL-AA.'],
@@ -55,5 +55,10 @@ class Card extends \yii\db\ActiveRecord
             'holder_crd' => 'Nume Deținător',
             'expiration_crd' => 'Data expirării',
         ];
+    }
+
+    public function getUser()
+    {
+        return $this->hasOne(User::className(), ['id_usr' => 'idusr_crd']);
     }
 }
